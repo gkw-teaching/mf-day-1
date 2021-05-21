@@ -24,8 +24,8 @@
 
 @media screen and (min-width: 1024px) {
   .funky-background {
-    background-color: red;
-    color: blue;
+    background-color: turquoise;
+    color: black;
   }
   h1 {
     font-size: 100px;
