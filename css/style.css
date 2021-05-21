@@ -1,6 +1,33 @@
 .funky-background {
-  width: 300px;
+  width: 80vw;
   height: 400px;
   background-color: midnightblue;
   color: oldlace;
+}
+
+@media screen and (min-width: 480px) {
+ .funky-background {
+   background-color: tomato;
+   color: #333;
+ }
+}
+
+@media screen and (min-width: 780px) {
+  .funky-background {
+    background-color: teal;
+    color: yellow;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .funky-background {
+    background-color: magenta;
+    color: lime;
+  }
+  h1 {
+    font-size: 100px;
+  }
 }
